@@ -42,6 +42,6 @@ management:
     export:
       prometheus:
         enabled: true
-
 mylog:
-  version: 2.1.0X
+  enable: true
+  version: 1.0.0
