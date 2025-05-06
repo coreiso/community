@@ -1,2 +1,2 @@
-# community
+# COMMUNITY
 Communal Repository
