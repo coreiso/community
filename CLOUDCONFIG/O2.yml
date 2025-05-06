@@ -1,9 +1,9 @@
 server:
-  port: 8081
+  port: 8082
   address: 0.0.0.0 # Open Address For Feign
 spring:
   application:
-    name: O1
+    name: O2
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/clouds?serverTimezone=UTC
@@ -42,6 +42,3 @@ management:
     export:
       prometheus:
         enabled: true
-mylog:
-  enable: true
-  version: 1.0.0
